@@ -20,6 +20,9 @@ use std::collections::HashMap;
 use std::collections::hash_map::Entry;
 use std::rc::Rc;
 use std::marker::PhantomData;
+
+pub use euclid::Transform2D;
+pub use lopdf::Document;
 mod core_fonts;
 mod glyphnames;
 mod zapfglyphnames;
